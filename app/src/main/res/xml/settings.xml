@@ -49,13 +49,18 @@
         <kittoku.osc.preference.custom.RouteDoAddCustomRoutesPreference android:key="ROUTE_DO_ADD_CUSTOM_ROUTES"/>
         <kittoku.osc.preference.custom.RouteCustomRoutesPreference android:key="ROUTE_CUSTOM_ROUTES"/>
         <kittoku.osc.preference.custom.RouteDoEnableAppBasedRulePreference android:key="ROUTE_DO_ENABLE_APP_BASED_RULE"/>
-        <kittoku.osc.preference.custom.RouteAllowedAppsPreference android:key="ROUTE_ALLOWED_APPS"/>
+        <kittoku.osc.preference.custom.RouteSelectedAppsPreference android:key="ROUTE_SELECTED_APPS"/>
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Reconnection">
         <kittoku.osc.preference.custom.ReconnectionEnabledPreference android:key="RECONNECTION_ENABLED"/>
         <kittoku.osc.preference.custom.ReconnectionCountPreference android:key="RECONNECTION_COUNT"/>
         <kittoku.osc.preference.custom.ReconnectionIntervalPreference android:key="RECONNECTION_INTERVAL"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Camouflage (Keenetic)">
+        <kittoku.osc.preference.custom.CamouflageEnabledPreference android:key="CAMOUFLAGE_ENABLED"/>
+        <kittoku.osc.preference.custom.CamouflageSecretPreference android:key="CAMOUFLAGE_SECRET"/>
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Log">
